@@ -1,0 +1,22 @@
+{
+  "name": "foode_backend",
+  "version": "1.0.0",
+  "description": "back end for foode food delivery app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "NaaMercy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {
+
+    "nodemon": "^2.0.13"
+  }
+}
